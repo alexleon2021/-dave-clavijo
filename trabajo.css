@@ -1,0 +1,75 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+ }
+ h1 {
+    text-align: center;
+    background-color: blanchedalmond; 
+    color: black;
+    padding: 15px;
+ }
+ p{
+    color: rgba(0, 42, 255, 0.97);
+ }
+img {
+    width: 150px;
+    height: 150px;
+    border-top: 50%;
+    object-fit: cover;
+}
+.Turismo {
+    display: flex;
+    margin: 60px;
+}
+.Gastronomia {
+    width: 2200px;
+    border-right: 3px solid black;
+}
+.fotos {
+    display: flex;
+    padding: 40px;
+
+}
+.lomasvendido {
+    width: 25%;
+    margin-top: 60px;
+}
+.lomasvendido a{
+    display: block;
+    text-align: center;
+    color: darkgreen;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+footer {
+    width: 84%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    display: flex;
+    
+}
+footer g {
+    text-align: start;
+}
+body{
+    background-image: url("Turismo/WhatsApp Image 2022-08-26 at 10.30.39 PM.jpeg");
+}
+.lomasvendido a:hover{
+    background-color: darkgray;
+    transition:all .5s;
+    color: black;
+}
+.comida{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: azure;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 6px;
+}
+
+
